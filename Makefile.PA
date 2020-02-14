@@ -1,0 +1,14 @@
+# Darius-Florentin Neatu <neatudarius@gmail.com>
+# Copyright 2018
+
+# ignorati
+# Makegfile intern folosit de checker
+
+all: build_verif
+
+build_verif:
+	g++ -Wall -lm -O3 ${ONLINE_JUDGE} _utils/verif.cpp -o verif
+	g++ -Wall -lm -O3 -std=c++11 ${ONLINE_JUDGE} _utils/verif_p1.cpp -o verif_p1
+
+clean:
+	rm -f verif verif_p1

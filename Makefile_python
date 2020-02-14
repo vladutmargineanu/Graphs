@@ -1,0 +1,13 @@
+build:	     # nume necesar
+
+run-p1:      # nume necesar
+	python3 ./src/p1.py
+
+run-p2:      # nume necesar
+	python3 ./src/p2.py
+
+run-p3:      # nume necesar 
+	python3 ./src/p3.py
+
+run-p4:      # nume necesar 
+	python3 ./src/p4.py
